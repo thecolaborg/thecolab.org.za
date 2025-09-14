@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The CO‑Lab — Catalysing opportunities: local action bridging</title>
+  <meta name="description" content="The CO‑Lab works with communities, governments and partners to catalyse local action across diverse contexts, building resilient and inclusive economies." />
+  <link rel="canonical" href="https://www.thecolab.org.za/" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="The CO‑Lab" />
+  <meta property="og:description" content="Catalysing opportunities: local action bridging." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.thecolab.org.za/" />
+  <meta property="og:image" content="/assets/og-image.png" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="The CO‑Lab" />
+  <meta name="twitter:description" content="Catalysing opportunities: local action bridging." />
+  <meta name="twitter:image" content="/assets/og-image.png" />
+  <!-- Favicon (optional) -->
+  <link rel="icon" href="/assets/favicon.png" />
+  <style>
+    :root {
+      --bg: #0e0f12;          /* near-black */
+      --text: #e8e9ef;        /* off-white */
+      --muted: #9aa0a6;       /* soft grey */
+      --brand: #5eead4;       /* accent teal */
+      --brand2: #f472b6;      /* accent pink */
+      --brand3: #60a5fa;      /* accent blue */
+      --brand4: #f59e0b;      /* accent amber */
+      --card: #151822;        /* panel */
+      --ring: rgba(94,234,212,.5);
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, 'Helvetica Neue', Arial, 'Apple Color Emoji', 'Segoe UI Emoji';
+      color: var(--text); background: radial-gradient(1200px 800px at 10% 10%, #1b2030, var(--bg));
+      -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+    }
+    a { color: inherit; text-decoration: none; }
+    a.button { display: inline-flex; align-items: center; gap: .5rem; padding: .85rem 1.1rem; border-radius: .9rem; background: linear-gradient(90deg, var(--brand), var(--brand3)); color: #081016; font-weight: 600; box-shadow: 0 10px 24px rgba(0,0,0,.35); }
+    a.button.secondary { background: transparent; border: 1px solid var(--muted); color: var(--text); }
+    a.button:focus-visible { outline: 3px solid var(--ring); outline-offset: 3px; }
+    header, main, footer { width: 100%; max-width: 1100px; margin: 0 auto; padding: 1.25rem; }
+    header { padding-top: 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .brand { display: flex; align-items: center; gap: .9rem; }
+    .logo {
+      width: 40px; height: 40px; border-radius: 10px; position: relative; background: linear-gradient(135deg, var(--card), #0c0e13);
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.06), 0 12px 40px rgba(0,0,0,.45);
+    }
+    /* hub-and-spoke motif inside the O */
+    .logo svg { position: absolute; inset: 6px; }
+    .wordmark { font-weight: 800; font-size: 1.25rem; letter-spacing: .4px; }
+    .strap { color: var(--muted); font-size: .95rem; }
+    .hero { display: grid; grid-template-columns: 1.1fr .9fr; gap: 2rem; align-items: center; padding: 3.5rem 1.25rem; }
+    .hero h1 { font-size: clamp(2rem, 3.8vw, 3rem); line-height: 1.1; margin: 0 0 1rem; }
+    .lead { color: var(--muted); font-size: 1.1rem; }
+    .panel { background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02)); border: 1px solid rgba(255,255,255,.06); border-radius: 16px; padding: 1.25rem; }
+    .list { display: grid; gap: .6rem; margin: 0; padding-left: 1.1rem; }
+    .list li { color: var(--text); }
+    .section { padding: 2rem 0; }
+    .grid-3 { display: grid; gap: 1rem; grid-template-columns: repeat(3, 1fr); }
+    .grid-2 { display: grid; gap: 1rem; grid-template-columns: repeat(2, 1fr); }
+    .muted { color: var(--muted); }
+    footer { padding: 2rem 1.25rem 3rem; color: var(--muted); }
+    .footer-grid { display: grid; gap: 1rem; grid-template-columns: 2fr 1fr; align-items: start; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    @media (max-width: 900px) { .hero { grid-template-columns: 1fr; } .grid-3 { grid-template-columns: 1fr; } .grid-2 { grid-template-columns: 1fr; } header { flex-wrap: wrap; gap: .75rem; } }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "The CO-Lab",
+    "url": "https://www.thecolab.org.za/",
+    "email": "simon@thecolab.org.za",
+    "description": "A non-profit platform catalysing place-based transformation through locally driven economic diversification and SMME incubation.",
+    "sameAs": [
+      "https://github.com/theco-lab" 
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header aria-label="Site header">
+    <div class="brand" aria-label="Brand">
+      <div class="logo" aria-hidden="true">
+        <svg viewBox="0 0 100 100" role="img" aria-label="CO‑Lab hub motif">
+          <circle cx="50" cy="50" r="28" fill="none" stroke="rgba(255,255,255,.3)" stroke-width="2"/>
+          <circle cx="50" cy="50" r="3.5" fill="white"/>
+          <line x1="50" y1="50" x2="50" y2="12" stroke="url(#g1)" stroke-width="2"/>
+          <line x1="50" y1="50" x2="88" y2="50" stroke="url(#g2)" stroke-width="2"/>
+          <line x1="50" y1="50" x2="20" y2="80" stroke="url(#g3)" stroke-width="2"/>
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="var(--brand)"/>
+              <stop offset="100%" stop-color="var(--brand3)"/>
+            </linearGradient>
+            <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="var(--brand2)"/>
+              <stop offset="100%" stop-color="var(--brand4)"/>
+            </linearGradient>
+            <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="var(--brand4)"/>
+              <stop offset="100%" stop-color="var(--brand)"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <div>
+        <div class="wordmark" aria-label="The CO‑Lab">The CO‑Lab</div>
+        <div class="strap">Catalysing opportunities: local action bridging</div>
+      </div>
+    </div>
+    <nav aria-label="Quick links">
+      <a class="button secondary" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section class="hero" aria-label="Intro">
+      <div>
+        <h1>Building resilient and inclusive local economies</h1>
+        <p class="lead">We work with communities, governments and partners to catalyse local action across diverse contexts. We connect changemakers, resources and ideas to deliver place‑based transformation that is just, scalable and lasting.</p>
+        <div style="display:flex; gap:.75rem; margin-top:1.25rem; flex-wrap: wrap;">
+          <a class="button" href="#partner">Partner with us</a>
+          <a class="button secondary" href="mailto:simon@thecolab.org.za">Email us</a>
+        </div>
+      </div>
+      <aside class="panel" aria-label="What we focus on">
+        <h2 style="margin-top:0">What we focus on</h2>
+        <ul class="list">
+          <li>Place‑based chapters to coordinate local action</li>
+          <li>Enterprise incubation and economic diversification</li>
+          <li>Partnering and aligning finance for impact (incl. IPP ED)</li>
+          <li>Learning by doing: open playbooks and practice notes</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="section" id="why" aria-label="Why we exist">
+      <div class="grid-2">
+        <div class="panel">
+          <h2 style="margin-top:0">Why we exist</h2>
+          <p class="muted">In many places, significant income and resources flow through the local economy, yet benefits concentrate among a few and inequalities grow. Old models that appoint leaders and build structures first can empower gatekeeping rather than action.</p>
+          <p>We take a stepping‑into‑action, partnership‑of‑the‑willing approach that follows energy, surfaces real changemakers and avoids destructive infighting. Immersion helps us understand dynamics, build trust and back doers.</p>
+        </div>
+        <div class="panel">
+          <h2 style="margin-top:0">How we work</h2>
+          <ul class="list">
+            <li>Participant observation and immersion</li>
+            <li>Action research (learning by doing)</li>
+            <li>Partnering Implementation Model (EDP)</li>
+            <li>Open calls, microgrants and light engine rooms</li>
+          </ul>
+          <p class="muted">We support the just transition by linking decarbonisation with decent work, SMME growth and spatial justice.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="partner" aria-label="Ways to partner">
+      <div class="grid-3">
+        <div class="panel">
+          <h3 style="margin-top:0">Municipal and public partners</h3>
+          <p class="muted">Co‑design chapters aligned to local strategies; aggregate pipelines; build delivery capacity and transparent dashboards.</p>
+        </div>
+        <div class="panel">
+          <h3 style="margin-top:0">Corporate and IPP ED</h3>
+          <p class="muted">Align enterprise development and social investment to place‑based portfolios. Leverage ED budgets and blended finance.</p>
+        </div>
+        <div class="panel">
+          <h3 style="margin-top:0">Donors and ecosystems</h3>
+          <p class="muted">Back immersive action research, microgrants and incubation. Share learning openly to influence practice.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-label="Contact">
+      <div class="panel">
+        <h2 style="margin-top:0">Contact</h2>
+        <p>Email: <a class="mono" href="mailto:simon@thecolab.org.za">simon@thecolab.org.za</a></p>
+        <p>General: <a class="mono" href="mailto:hello@thecolab.org.za">hello@thecolab.org.za</a> (optional)</p>
+        <p class="muted">Media kit, one‑pager and case cards coming soon.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer aria-label="Footer">
+    <div class="footer-grid">
+      <div>
+        <p class="muted">© <span id="year"></span> The CO‑Lab NPC. All rights reserved.</p>
+        <p class="muted">Reg. no.: <span class="mono">[insert]</span> • Address: <span class="mono">[insert]</span></p>
+      </div>
+      <div style="text-align:right">
+        <a class="button secondary" href="https://github.com/" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
